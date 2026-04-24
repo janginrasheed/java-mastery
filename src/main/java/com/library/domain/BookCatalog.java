@@ -16,15 +16,42 @@ Every time a book is added, the TreeSet automatically places it in the correct a
 
 package com.library.domain;
 
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
 
 import org.springframework.stereotype.Component;
 
+import jakarta.annotation.PostConstruct;
+import lombok.extern.slf4j.Slf4j;
+
 @Component
+@Slf4j
 public class BookCatalog {
     private Map<String, Book> books = new HashMap<>();
     private List<Book> booksAddedOrder = new ArrayList<>();
     private TreeSet<Book> booksSorted = new TreeSet<>();
+
+    @PostConstruct
+    public void loadBooksFromFile() {
+        try (InputStream is = getClass().getResourceAsStream("/books.txt");
+                BufferedReader reader = new BufferedReader(new InputStreamReader(is))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split("\\|"); // We use \\| because | is a special character in Regex
+                Book book = new Book(parts[0], parts[1], parts[2], true, null);
+                addBook(book);
+            }
+            log.info("Successfully loaded books into memory!");
+        } catch (Exception exception) {
+            log.error("Could not load books: ", exception);
+        }
+    }
 
     public void addBook(Book book) {
         books.put(book.getIsbn(), book);
@@ -53,7 +80,8 @@ public class BookCatalog {
 
     public void removeBook(String isbn) {
         Book bookToRemove = books.get(isbn);
-        if (bookToRemove == null) return;
+        if (bookToRemove == null)
+            return;
         books.remove(isbn);
         booksAddedOrder.remove(bookToRemove);
         booksSorted.remove(bookToRemove);

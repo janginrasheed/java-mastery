@@ -1,0 +1,100 @@
+978-0132350884|Clean Code|Robert C. Martin
+978-0201616224|The Pragmatic Programmer|Andrew Hunt
+978-0134494166|Clean Architecture|Robert C. Martin
+978-0596007126|Head First Design Patterns|Eric Freeman
+978-0137081073|The Clean Coder|Robert C. Martin
+978-0321125217|Refactoring|Martin Fowler
+978-0132143011|Introduction to Algorithms|Thomas H. Cormen
+978-0131103627|The C Programming Language|Brian Kernighan
+978-0201633610|Design Patterns|Erich Gamma
+978-0135957059|The Art of Computer Programming|Donald Knuth
+978-0596009205|Head First Java|Kathy Sierra
+978-0321356680|Effective Java|Joshua Bloch
+978-0134685991|Effective Java 3rd Edition|Joshua Bloch
+978-0132350884|Test Driven Development|Kent Beck
+978-0134757599|Refactoring UI|Adam Wathan
+978-0596517748|JavaScript: The Good Parts|Douglas Crockford
+978-1491950357|Don't Make Me Think|Steve Krug
+978-1593275846|Eloquent JavaScript|Marijn Haverbeke
+978-1491924464|You Don't Know JS|Kyle Simpson
+978-0321146533|Test Driven Development: By Example|Kent Beck
+978-0134051918|The Mythical Man-Month|Frederick Brooks
+978-1617292231|Grokking Algorithms|Aditya Bhargava
+978-1449331818|Learning Python|Mark Lutz
+978-1491910290|Fluent Python|Luciano Ramalho
+978-0596005658|Learning SQL|Alan Beaulieu
+978-0735619678|Code Complete|Steve McConnell
+978-1449373320|Designing Data-Intensive Applications|Martin Kleppmann
+978-0132350800|Working Effectively with Legacy Code|Michael Feathers
+978-1593279509|Automate the Boring Stuff with Python|Al Sweigart
+978-1617294945|Grokking Deep Learning|Andrew Trask
+978-0321712615|Domain-Driven Design|Eric Evans
+978-1492043454|Hands-On Machine Learning|Aurélien Géron
+978-0135166307|Core Java Volume I|Cay S. Horstmann
+978-1119056447|Algorithms|Robert Sedgewick
+978-0134177373|Modern Operating Systems|Andrew Tanenbaum
+978-0136006329|Artificial Intelligence: A Modern Approach|Stuart Russell
+978-1449337711|Continuous Delivery|Jez Humble
+978-0321601919|Continuous Delivery|David Farley
+978-1491954621|Site Reliability Engineering|Niall Richard Murphy
+978-1492039266|Google Cloud Certified Professional|Dan Sullivan
+978-1118951354|CompTIA Security+|David Prowse
+978-1491962299|Docker: Up & Running|Karl Matthias
+978-1491933022|Kubernetes: Up & Running|Brendan Burns
+978-1492046530|Kubernetes Patterns|Bilgin Ibryam
+978-1491956335|Building Microservices|Sam Newman
+978-1492034025|Monolith to Microservices|Sam Newman
+978-1617292392|Soft Skills|John Sonmez
+978-0134434421|The DevOps Handbook|Gene Kim
+978-1942788003|The Phoenix Project|Gene Kim
+978-1942788294|The Unicorn Project|Gene Kim
+978-1491949856|Architecture Patterns with Python|Harry Percival
+978-1593276034|Deep Learning with Python|Francois Chollet
+978-0134444321|Structure and Interpretation of Computer Programs|Harold Abelson
+978-0262033848|Introduction to Algorithms 3rd Ed|Thomas H. Cormen
+978-0596001087|Regular Expressions Cookbook|Jan Goyvaerts
+978-1491918661|R for Data Science|Hadley Wickham
+978-1491957660|Data Science from Scratch|Joel Grus
+978-1449361327|Badass: Making Users Awesome|Kathy Sierra
+978-1449355739|Python for Data Analysis|Wes McKinney
+978-1492041139|High Performance Browser Networking|Ilya Grigorik
+978-0131433359|The Design of Every Day Things|Don Norman
+978-0321834331|The Inmates Are Running the Asylum|Alan Cooper
+978-0321534460|About Face: The Essentials of Interaction Design|Alan Cooper
+978-0321173607|Agile Estimating and Planning|Mike Cohn
+978-1617294549|Microservices in Action|Morgan Bruce
+978-1491903995|Enterprise Integration Patterns|Gregor Hohpe
+978-0321200686|Enterprise Integration Patterns|Bobby Woolf
+978-0133065039|Patterns of Enterprise Application Architecture|Martin Fowler
+978-0131177055|Computer Networking|James Kurose
+978-1118538821|The Art of Memory Forensics|Michael Hale Ligh
+978-1593271442|The Shellcoder's Handbook|Chris Anley
+978-1593272258|The Web Application Hacker's Handbook|Dafydd Stuttard
+978-1593273880|Metasploit: The Penetration Tester's Guide|David Kennedy
+978-1593275679|Hacking: The Art of Exploitation|Jon Erickson
+978-1593279462|Practical Malware Analysis|Michael Sikorski
+978-1593272906|Rootkits: Subverting the Windows Kernel|Greg Hoglund
+978-0321446114|The Art of Computer Systems Performance Analysis|Raj Jain
+978-0201615869|The Practice of System and Network Administration|Thomas Limoncelli
+978-0321492661|The Practice of Cloud System Administration|Thomas Limoncelli
+978-1492044314|Think Python|Allen B. Downey
+978-1449330729|Flask Web Development|Miguel Grinberg
+978-1449364458|Django for Beginners|William S. Vincent
+978-1491939369|React Up & Running|Stoyan Stefanov
+978-1789531640|Learning GraphQL|Eve Porcello
+978-1492041214|Fullstack React|Anthony Accomazzo
+978-1617293566|C# in Depth|Jon Skeet
+978-1119096603|Professional C# 6 and .NET Core 1.0|Christian Nagel
+978-0134448237|The Go Programming Language|Alan A. A. Donovan
+978-1593278670|The Rust Programming Language|Steve Klabnik
+978-1491979907|Programming Rust|Jim Blandy
+978-1492052593|Programming TypeScript|Boris Cherny
+978-1617291340|Functional Programming in Java|Pierre-Yves Saumont
+978-1617291999|Java 8 in Action|Raoul-Gabriel Urma
+978-0134190440|Java Concurrency in Practice|Brian Goetz
+978-0321349804|Java Puzzlers|Joshua Bloch
+978-1492025801|Kafka: The Definitive Guide|Gwen Shapira
+978-1491956182|Redis in Action|Josiah L. Carlson
+978-1449344689|MongoDB: The Definitive Guide|Kristina Chodorow
+978-1449381226|Expert Oracle Database Architecture|Thomas Kyte
+978-0137081073|Clean Code: A Handbook of Agile Software Craftsmanship|Robert C. Martin
