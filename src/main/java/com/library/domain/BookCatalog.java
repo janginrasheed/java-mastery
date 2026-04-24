@@ -18,6 +18,9 @@ package com.library.domain;
 
 import java.util.*;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BookCatalog {
     private Map<String, Book> books = new HashMap<>();
     private List<Book> booksAddedOrder = new ArrayList<>();
