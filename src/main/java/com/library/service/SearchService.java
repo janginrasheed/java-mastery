@@ -25,6 +25,10 @@ public class SearchService {
         return catalog.getAllBooks();
     }
 
+    public List<Member> getAllMembers() {
+        return memberList.getAllMembers();
+    }
+
     public Book findBookByIsbn(String isbn) {
         Book foundBook = catalog.getBookByIsbn(isbn);
         if (foundBook == null) {

@@ -10,9 +10,11 @@ package com.library.domain;
 import java.util.HashSet;
 import java.util.Set;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class Member {
     private int id;
     private String firstName;

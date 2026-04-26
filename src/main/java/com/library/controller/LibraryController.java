@@ -63,4 +63,11 @@ public class LibraryController {
         loanService.returnItem(book, member);
         return new ResponseEntity<>("Return successful!", HttpStatus.OK);
     }
+
+    @GetMapping("/getAllMembers")
+    public List<Member> getAllMemebrs() {
+        List<Member> allMembers = searchService.getAllMembers();
+        return (allMembers != null) ? allMembers : new ArrayList<>();
+    }
+
 }
