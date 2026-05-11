@@ -7,18 +7,36 @@ If you try to add a duplicate, the HashSet simply says "No thanks" and ignores i
 
 package com.library.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.HashSet;
 import java.util.Set;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
 @Data
 @AllArgsConstructor
-public class Member {
+@NoArgsConstructor
+public class Member implements Searchable {
+
     private int id;
     private String firstName;
     private String lastName;
     private ContactInfo contactInfo;
     private Set<Book> activeLoans = new HashSet<>();
+
+    @Override
+    public Member matchesQuery(String searchText) {
+        searchText = searchText.toUpperCase();
+        if (firstName.toUpperCase().contains(searchText)
+                || lastName.toUpperCase().contains(searchText)
+                || contactInfo.getEmail().equals(searchText)
+        ) {
+            return this;
+        }
+
+        // TODO: return Exception
+        return null;
+    }
+
 }

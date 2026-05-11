@@ -30,28 +30,53 @@ public class LibraryController {
         this.searchService = searchService;
     }
 
+    // ============================ Book functions ============================ //
     @GetMapping("/getAllBooks")
     public List<Book> getAllBooks() {
         List<Book> allBooks = searchService.getAllBooks();
         return (allBooks != null) ? allBooks : new ArrayList<>();
     }
 
+    @GetMapping("/getBookByIsbn")
+    public Book getBookByIsbn(@RequestParam(value = "isbn") String isbn) {
+        System.out.println("getBookByIsbn called *************");
+        return searchService.findBookByIsbn(isbn);
+    }
+
+    @GetMapping("/searchBook")
+    public List<Book> searchBook(@RequestParam(value = "query") String query) {
+        return searchService.bookMatchesSearchText(query);
+    }
+
+    // ============================ Member functions ============================ //
+    @GetMapping("/getAllMembers")
+    public List<Member> getAllMembers() {
+        List<Member> allMembers = searchService.getAllMembers();
+        return (allMembers != null) ? allMembers : new ArrayList<>();
+    }
+
+    @GetMapping("/getMemberById")
+    public Member getMemberById(@RequestParam(value = "id") int id) {
+        return searchService.findMemberById(id);
+    }
+
+    // ============================ General functions ============================ //
     @PostMapping("/loan")
-    public ResponseEntity<String> performLoan(@RequestParam String isbn, @RequestParam int memberId) {
+    public ResponseEntity<String> performLoan(@RequestParam(value = "isbn") String isbn, @RequestParam(value = "memberId") int memberId) {
         Book book = searchService.findBookByIsbn(isbn);
         if (book == null)
-            throw new BookNotFoundException("Book not found!");
+            throw new BookNotFoundException("Book with ISBN: " + isbn + " not found in the library!");
 
         Member member = searchService.findMemberById(memberId);
         if (member == null)
-            throw new MemberNotFoundException("Member not found!");
+            throw new MemberNotFoundException("Member with id: " + memberId + " not found!");
 
         loanService.performLoan(book, member);
         return new ResponseEntity<>("Loan successful!", HttpStatus.OK);
     }
 
     @PostMapping("/return")
-    public ResponseEntity<String> returnItem(@RequestParam String isbn, @RequestParam int memberId) {
+    public ResponseEntity<String> returnItem(@RequestParam(value = "isbn") String isbn, @RequestParam(value = "memberId") int memberId) {
         Book book = searchService.findBookByIsbn(isbn);
         if (book == null)
             throw new BookNotFoundException("Book not found!");
@@ -62,12 +87,6 @@ public class LibraryController {
 
         loanService.returnItem(book, member);
         return new ResponseEntity<>("Return successful!", HttpStatus.OK);
-    }
-
-    @GetMapping("/getAllMembers")
-    public List<Member> getAllMemebrs() {
-        List<Member> allMembers = searchService.getAllMembers();
-        return (allMembers != null) ? allMembers : new ArrayList<>();
     }
 
 }

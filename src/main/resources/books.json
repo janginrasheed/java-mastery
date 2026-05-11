@@ -1,0 +1,492 @@
+[
+  {
+    "isbn": "978-0132350884",
+    "title": "Clean Code",
+    "author": "Robert C. Martin"
+  },
+  {
+    "isbn": "978-0201616224",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt"
+  },
+  {
+    "isbn": "978-0134494166",
+    "title": "Clean Architecture",
+    "author": "Robert C. Martin"
+  },
+  {
+    "isbn": "978-0596007126",
+    "title": "Head First Design Patterns",
+    "author": "Eric Freeman"
+  },
+  {
+    "isbn": "978-0137081073",
+    "title": "The Clean Coder",
+    "author": "Robert C. Martin"
+  },
+  {
+    "isbn": "978-0321125217",
+    "title": "Refactoring",
+    "author": "Martin Fowler"
+  },
+  {
+    "isbn": "978-0132143011",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen"
+  },
+  {
+    "isbn": "978-0131103627",
+    "title": "The C Programming Language",
+    "author": "Brian Kernighan"
+  },
+  {
+    "isbn": "978-0201633610",
+    "title": "Design Patterns",
+    "author": "Erich Gamma"
+  },
+  {
+    "isbn": "978-0135957059",
+    "title": "The Art of Computer Programming",
+    "author": "Donald Knuth"
+  },
+  {
+    "isbn": "978-0596009205",
+    "title": "Head First Java",
+    "author": "Kathy Sierra"
+  },
+  {
+    "isbn": "978-0321356680",
+    "title": "Effective Java",
+    "author": "Joshua Bloch"
+  },
+  {
+    "isbn": "978-0134685991",
+    "title": "Effective Java 3rd Edition",
+    "author": "Joshua Bloch"
+  },
+  {
+    "isbn": "978-0321146533",
+    "title": "Test Driven Development",
+    "author": "Kent Beck"
+  },
+  {
+    "isbn": "978-0134757599",
+    "title": "Refactoring UI",
+    "author": "Adam Wathan"
+  },
+  {
+    "isbn": "978-0596517748",
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford"
+  },
+  {
+    "isbn": "978-1491950357",
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug"
+  },
+  {
+    "isbn": "978-1593275846",
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke"
+  },
+  {
+    "isbn": "978-1491924464",
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson"
+  },
+  {
+    "isbn": "978-0134051918",
+    "title": "The Mythical Man-Month",
+    "author": "Frederick Brooks"
+  },
+  {
+    "isbn": "978-1617292231",
+    "title": "Grokking Algorithms",
+    "author": "Aditya Bhargava"
+  },
+  {
+    "isbn": "978-1449331818",
+    "title": "Learning Python",
+    "author": "Mark Lutz"
+  },
+  {
+    "isbn": "978-1491910290",
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho"
+  },
+  {
+    "isbn": "978-0596005658",
+    "title": "Learning SQL",
+    "author": "Alan Beaulieu"
+  },
+  {
+    "isbn": "978-0735619678",
+    "title": "Code Complete",
+    "author": "Steve McConnell"
+  },
+  {
+    "isbn": "978-1449373320",
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann"
+  },
+  {
+    "isbn": "978-0132350800",
+    "title": "Working Effectively with Legacy Code",
+    "author": "Michael Feathers"
+  },
+  {
+    "isbn": "978-1593279509",
+    "title": "Automate the Boring Stuff with Python",
+    "author": "Al Sweigart"
+  },
+  {
+    "isbn": "978-1617294945",
+    "title": "Grokking Deep Learning",
+    "author": "Andrew Trask"
+  },
+  {
+    "isbn": "978-0321712615",
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans"
+  },
+  {
+    "isbn": "978-1492043454",
+    "title": "Hands-On Machine Learning",
+    "author": "Aurélien Géron"
+  },
+  {
+    "isbn": "978-0135166307",
+    "title": "Core Java Volume I",
+    "author": "Cay S. Horstmann"
+  },
+  {
+    "isbn": "978-1119056447",
+    "title": "Algorithms",
+    "author": "Robert Sedgewick"
+  },
+  {
+    "isbn": "978-0134177373",
+    "title": "Modern Operating Systems",
+    "author": "Andrew Tanenbaum"
+  },
+  {
+    "isbn": "978-0136006329",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "author": "Stuart Russell"
+  },
+  {
+    "isbn": "978-1449337711",
+    "title": "Continuous Delivery",
+    "author": "Jez Humble"
+  },
+  {
+    "isbn": "978-0321601919",
+    "title": "Continuous Delivery",
+    "author": "David Farley"
+  },
+  {
+    "isbn": "978-1491954621",
+    "title": "Site Reliability Engineering",
+    "author": "Niall Richard Murphy"
+  },
+  {
+    "isbn": "978-1492039266",
+    "title": "Google Cloud Certified Professional",
+    "author": "Dan Sullivan"
+  },
+  {
+    "isbn": "978-1118951354",
+    "title": "CompTIA Security+",
+    "author": "David Prowse"
+  },
+  {
+    "isbn": "978-1491962299",
+    "title": "Docker: Up & Running",
+    "author": "Karl Matthias"
+  },
+  {
+    "isbn": "978-1491933022",
+    "title": "Kubernetes: Up & Running",
+    "author": "Brendan Burns"
+  },
+  {
+    "isbn": "978-1492046530",
+    "title": "Kubernetes Patterns",
+    "author": "Bilgin Ibryam"
+  },
+  {
+    "isbn": "978-1491956335",
+    "title": "Building Microservices",
+    "author": "Sam Newman"
+  },
+  {
+    "isbn": "978-1492034025",
+    "title": "Monolith to Microservices",
+    "author": "Sam Newman"
+  },
+  {
+    "isbn": "978-1617292392",
+    "title": "Soft Skills",
+    "author": "John Sonmez"
+  },
+  {
+    "isbn": "978-0134434421",
+    "title": "The DevOps Handbook",
+    "author": "Gene Kim"
+  },
+  {
+    "isbn": "978-1942788003",
+    "title": "The Phoenix Project",
+    "author": "Gene Kim"
+  },
+  {
+    "isbn": "978-1942788294",
+    "title": "The Unicorn Project",
+    "author": "Gene Kim"
+  },
+  {
+    "isbn": "978-1491949856",
+    "title": "Architecture Patterns with Python",
+    "author": "Harry Percival"
+  },
+  {
+    "isbn": "978-1593276034",
+    "title": "Deep Learning with Python",
+    "author": "Francois Chollet"
+  },
+  {
+    "isbn": "978-0134444321",
+    "title": "Structure and Interpretation of Computer Programs",
+    "author": "Harold Abelson"
+  },
+  {
+    "isbn": "978-0262033848",
+    "title": "Introduction to Algorithms 3rd Ed",
+    "author": "Thomas H. Cormen"
+  },
+  {
+    "isbn": "978-0596001087",
+    "title": "Regular Expressions Cookbook",
+    "author": "Jan Goyvaerts"
+  },
+  {
+    "isbn": "978-1491918661",
+    "title": "R for Data Science",
+    "author": "Hadley Wickham"
+  },
+  {
+    "isbn": "978-1491957660",
+    "title": "Data Science from Scratch",
+    "author": "Joel Grus"
+  },
+  {
+    "isbn": "978-1449361327",
+    "title": "Badass: Making Users Awesome",
+    "author": "Kathy Sierra"
+  },
+  {
+    "isbn": "978-1449355739",
+    "title": "Python for Data Analysis",
+    "author": "Wes McKinney"
+  },
+  {
+    "isbn": "978-1492041139",
+    "title": "High Performance Browser Networking",
+    "author": "Ilya Grigorik"
+  },
+  {
+    "isbn": "978-0131433359",
+    "title": "The Design of Every Day Things",
+    "author": "Don Norman"
+  },
+  {
+    "isbn": "978-0321834331",
+    "title": "The Inmates Are Running the Asylum",
+    "author": "Alan Cooper"
+  },
+  {
+    "isbn": "978-0321534460",
+    "title": "About Face: The Essentials of Interaction Design",
+    "author": "Alan Cooper"
+  },
+  {
+    "isbn": "978-0321173607",
+    "title": "Agile Estimating and Planning",
+    "author": "Mike Cohn"
+  },
+  {
+    "isbn": "978-1617294549",
+    "title": "Microservices in Action",
+    "author": "Morgan Bruce"
+  },
+  {
+    "isbn": "978-1491903995",
+    "title": "Enterprise Integration Patterns",
+    "author": "Gregor Hohpe"
+  },
+  {
+    "isbn": "978-0321200686",
+    "title": "Enterprise Integration Patterns",
+    "author": "Bobby Woolf"
+  },
+  {
+    "isbn": "978-0133065039",
+    "title": "Patterns of Enterprise Application Architecture",
+    "author": "Martin Fowler"
+  },
+  {
+    "isbn": "978-0131177055",
+    "title": "Computer Networking",
+    "author": "James Kurose"
+  },
+  {
+    "isbn": "978-1118538821",
+    "title": "The Art of Memory Forensics",
+    "author": "Michael Hale Ligh"
+  },
+  {
+    "isbn": "978-1593271442",
+    "title": "The Shellcoder's Handbook",
+    "author": "Chris Anley"
+  },
+  {
+    "isbn": "978-1593272258",
+    "title": "The Web Application Hacker's Handbook",
+    "author": "Dafydd Stuttard"
+  },
+  {
+    "isbn": "978-1593273880",
+    "title": "Metasploit: The Penetration Tester's Guide",
+    "author": "David Kennedy"
+  },
+  {
+    "isbn": "978-1593275679",
+    "title": "Hacking: The Art of Exploitation",
+    "author": "Jon Erickson"
+  },
+  {
+    "isbn": "978-1593279462",
+    "title": "Practical Malware Analysis",
+    "author": "Michael Sikorski"
+  },
+  {
+    "isbn": "978-1593272906",
+    "title": "Rootkits: Subverting the Windows Kernel",
+    "author": "Greg Hoglund"
+  },
+  {
+    "isbn": "978-0321446114",
+    "title": "The Art of Computer Systems Performance Analysis",
+    "author": "Raj Jain"
+  },
+  {
+    "isbn": "978-0201615869",
+    "title": "The Practice of System and Network Administration",
+    "author": "Thomas Limoncelli"
+  },
+  {
+    "isbn": "978-0321492661",
+    "title": "The Practice of Cloud System Administration",
+    "author": "Thomas Limoncelli"
+  },
+  {
+    "isbn": "978-1492044314",
+    "title": "Think Python",
+    "author": "Allen B. Downey"
+  },
+  {
+    "isbn": "978-1449330729",
+    "title": "Flask Web Development",
+    "author": "Miguel Grinberg"
+  },
+  {
+    "isbn": "978-1449364458",
+    "title": "Django for Beginners",
+    "author": "William S. Vincent"
+  },
+  {
+    "isbn": "978-1491939369",
+    "title": "React Up & Running",
+    "author": "Stoyan Stefanov"
+  },
+  {
+    "isbn": "978-1789531640",
+    "title": "Learning GraphQL",
+    "author": "Eve Porcello"
+  },
+  {
+    "isbn": "978-1492041214",
+    "title": "Fullstack React",
+    "author": "Anthony Accomazzo"
+  },
+  {
+    "isbn": "978-1617293566",
+    "title": "C# in Depth",
+    "author": "Jon Skeet"
+  },
+  {
+    "isbn": "978-1119096603",
+    "title": "Professional C# 6 and .NET Core 1.0",
+    "author": "Christian Nagel"
+  },
+  {
+    "isbn": "978-0134448237",
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan"
+  },
+  {
+    "isbn": "978-1593278670",
+    "title": "The Rust Programming Language",
+    "author": "Steve Klabnik"
+  },
+  {
+    "isbn": "978-1491979907",
+    "title": "Programming Rust",
+    "author": "Jim Blandy"
+  },
+  {
+    "isbn": "978-1492052593",
+    "title": "Programming TypeScript",
+    "author": "Boris Cherny"
+  },
+  {
+    "isbn": "978-1617291340",
+    "title": "Functional Programming in Java",
+    "author": "Pierre-Yves Saumont"
+  },
+  {
+    "isbn": "978-1617291999",
+    "title": "Java 8 in Action",
+    "author": "Raoul-Gabriel Urma"
+  },
+  {
+    "isbn": "978-0134190440",
+    "title": "Java Concurrency in Practice",
+    "author": "Brian Goetz"
+  },
+  {
+    "isbn": "978-0321349804",
+    "title": "Java Puzzlers",
+    "author": "Joshua Bloch"
+  },
+  {
+    "isbn": "978-1492025801",
+    "title": "Kafka: The Definitive Guide",
+    "author": "Gwen Shapira"
+  },
+  {
+    "isbn": "978-1491956182",
+    "title": "Redis in Action",
+    "author": "Josiah L. Carlson"
+  },
+  {
+    "isbn": "978-1449344689",
+    "title": "MongoDB: The Definitive Guide",
+    "author": "Kristina Chodorow"
+  },
+  {
+    "isbn": "978-1449381226",
+    "title": "Expert Oracle Database Architecture",
+    "author": "Thomas Kyte"
+  }
+]

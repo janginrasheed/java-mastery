@@ -16,9 +16,7 @@ Every time a book is added, the TreeSet automatically places it in the correct a
 
 package com.library.domain;
 
-import java.io.BufferedReader;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -27,29 +25,35 @@ import java.util.TreeSet;
 
 import org.springframework.stereotype.Component;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 
 @Component
 @Slf4j
 public class BookCatalog {
+    // TODO Check if we can keep only one variable, if not -> document why not
     private Map<String, Book> books = new HashMap<>();
     private List<Book> booksAddedOrder = new ArrayList<>();
     private TreeSet<Book> booksSorted = new TreeSet<>();
+    private final ObjectMapper objectMapper; // Jackson's engine
+
+    public BookCatalog(ObjectMapper objectMapper) {
+        this.objectMapper = objectMapper;
+    }
 
     @PostConstruct
     public void loadBooksFromFile() {
-        try (InputStream is = getClass().getResourceAsStream("/books.txt");
-                BufferedReader reader = new BufferedReader(new InputStreamReader(is))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                String[] parts = line.split("\\|"); // We use \\| because | is a special character in Regex
-                Book book = new Book(parts[0], parts[1], parts[2], true, null);
-                addBook(book);
+        try (InputStream is = getClass().getResourceAsStream("/books.json")) {
+            List<Book> loadedBooks = objectMapper.readValue(is, new TypeReference<List<Book>>() {
+            });
+            for (Book m : loadedBooks) {
+                addBook(m);
             }
-            log.info("Successfully loaded books into memory!");
-        } catch (Exception exception) {
-            log.error("Could not load books: ", exception);
+        } catch (Exception e) {
+            log.error("Failed to load books from JSON", e);
         }
     }
 
@@ -60,7 +64,7 @@ public class BookCatalog {
     }
 
     public List<Book> getAllBooks() {
-        return booksAddedOrder;
+        return new ArrayList<>(books.values());
     }
 
     public Book getBookByIsbn(String isbn) {

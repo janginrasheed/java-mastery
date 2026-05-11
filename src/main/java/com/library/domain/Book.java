@@ -29,6 +29,7 @@ public class Book implements Lendable, Searchable, Comparable<Book> {
             return this;
         }
 
+        // TODO: return Exception
         return null;
     }
 
@@ -48,6 +49,7 @@ public class Book implements Lendable, Searchable, Comparable<Book> {
         checkOutDate = null;
     }
 
+    // TODO what to do with this function
     @Override
     public int compareTo(Book o) {
         int result = this.getTitle().compareTo(o.title);

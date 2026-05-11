@@ -9,22 +9,29 @@ import com.library.domain.Member;
 import com.library.exception.BookNotAvailableException;
 import com.library.exception.LoanNotFoundException;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Service
+@Slf4j
 public class LoanService {
 
     public void performLoan(Book book, Member member) {
         if (!book.checkout(LocalDate.now())) {
-            throw new BookNotAvailableException("The book is already out!");
+            log.info("Book is already out!");
+            throw new BookNotAvailableException("Book is already out!");
         }
         member.getActiveLoans().add(book);
+        log.info("Book loaned successfully!");
     }
 
     public void returnItem(Book book, Member member) {
         if (!member.getActiveLoans().contains(book)) {
-            throw new LoanNotFoundException("This member does not have this book checked out.");
+            log.info("This member does not have this book checked out!");
+            throw new LoanNotFoundException("This member does not have this book checked out!");
         }
         book.returnItem();
         member.getActiveLoans().remove(book);
+        log.info("Book returned successfully!");
     }
 
 }

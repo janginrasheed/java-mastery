@@ -1,0 +1,44 @@
+[
+  {
+    "copyId": "1001",
+    "isbn": "978-0132350884",
+    "isAvailable": true,
+    "borrowedBy": null
+  },
+  {
+    "copyId": "1002",
+    "isbn": "978-0132350884",
+    "isAvailable": false,
+    "borrowedBy": 101
+  },
+  {
+    "copyId": "1003",
+    "isbn": "978-0132350884",
+    "isAvailable": true,
+    "borrowedBy": null
+  },
+  {
+    "copyId": "2001",
+    "isbn": "978-0201616224",
+    "isAvailable": true,
+    "borrowedBy": null
+  },
+  {
+    "copyId": "2002",
+    "isbn": "978-0201616224",
+    "isAvailable": true,
+    "borrowedBy": null
+  },
+  {
+    "copyId": "3001",
+    "isbn": "978-0134494166",
+    "isAvailable": false,
+    "borrowedBy": 102
+  },
+  {
+    "copyId": "3002",
+    "isbn": "978-0134494166",
+    "isAvailable": true,
+    "borrowedBy": null
+  }
+]
