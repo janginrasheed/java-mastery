@@ -18,6 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class MemberCatalog {
     private Map<Integer, Member> members = new HashMap<>();
+    private List<Member> membersAddedOrder = new ArrayList<>();
     private final ObjectMapper objectMapper; // Jackson's engine
 
     public MemberCatalog(ObjectMapper objectMapper) {
@@ -31,6 +32,7 @@ public class MemberCatalog {
             });
             for (Member m : loadedMembers) {
                 members.put(m.getId(), m);
+                membersAddedOrder.add(m);
             }
         } catch (Exception e) {
             log.error("Failed to load members from JSON", e);
@@ -39,6 +41,17 @@ public class MemberCatalog {
 
     public Member getMemberById(int id) {
         return members.get(id);
+    }
+
+    public List<Member> searchMembers(String query) {
+        List<Member> foundMembers = new ArrayList<>();
+
+        for (Member member : membersAddedOrder) {
+            if (member.matchesQuery(query) != null) {
+                foundMembers.add(member);
+            }
+        }
+        return foundMembers;
     }
 
     public List<Member> getAllMembers() {

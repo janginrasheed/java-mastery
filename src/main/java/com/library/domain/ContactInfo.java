@@ -6,5 +6,4 @@ import lombok.Data;
 public class ContactInfo {
     private String email;
     private String phone;
-    private Address address;
 }

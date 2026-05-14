@@ -60,6 +60,11 @@ public class LibraryController {
         return searchService.findMemberById(id);
     }
 
+    @GetMapping("/searchMember")
+    public List<Member> searchMember(@RequestParam(value = "query") String query) {
+        return searchService.memberMatchesSearchText(query);
+    }
+
     // ============================ General functions ============================ //
     @PostMapping("/loan")
     public ResponseEntity<String> performLoan(@RequestParam(value = "isbn") String isbn, @RequestParam(value = "memberId") int memberId) {

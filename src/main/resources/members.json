@@ -2,251 +2,451 @@
   {
     "id": 1,
     "firstName": "Alice",
-    "lastName": "Johnson"
+    "lastName": "Johnson",
+    "contactInfo": {
+      "email": "alice.j@example.com",
+      "phone": "+43 660 1234567"
+    }
   },
   {
     "id": 2,
     "firstName": "Bob",
-    "lastName": "Smith"
+    "lastName": "Smith",
+    "contactInfo": {
+      "email": "bob.smith@provider.at",
+      "phone": "+43 677 9988776"
+    }
   },
   {
     "id": 3,
     "firstName": "Charlie",
-    "lastName": "Davis"
+    "lastName": "Davis",
+    "contactInfo": {
+      "email": "charlie.davis@gmail.com",
+      "phone": "0677 1122334"
+    }
   },
   {
     "id": 4,
     "firstName": "Diana",
-    "lastName": "Prince"
+    "lastName": "Prince",
+    "contactInfo": {
+      "email": "diana@themyscira.com",
+      "phone": "555-0100"
+    }
   },
   {
     "id": 5,
     "firstName": "Edward",
-    "lastName": "Norton"
+    "lastName": "Norton",
+    "contactInfo": {
+      "email": "e.norton@fightclub.org",
+      "phone": "555-0199"
+    }
   },
   {
     "id": 6,
     "firstName": "Fiona",
-    "lastName": "Gallagher"
+    "lastName": "Gallagher",
+    "contactInfo": {
+      "email": "fiona.g@southside.com",
+      "phone": "0676 9876543"
+    }
   },
   {
     "id": 7,
     "firstName": "George",
-    "lastName": "Miller"
+    "lastName": "Miller",
+    "contactInfo": {
+      "email": "george@madmax.au",
+      "phone": "01 555 4433"
+    }
   },
   {
     "id": 8,
     "firstName": "Hannah",
-    "lastName": "Abbott"
+    "lastName": "Abbott",
+    "contactInfo": {
+      "email": "hannah.a@hogwarts.edu",
+      "phone": "07700 900444"
+    }
   },
   {
     "id": 9,
     "firstName": "Ian",
-    "lastName": "Wright"
+    "lastName": "Wright",
+    "contactInfo": {
+      "email": "ian.wright@arsenal.co.uk",
+      "phone": "07700 900123"
+    }
   },
   {
     "id": 10,
     "firstName": "Julia",
-    "lastName": "Roberts"
+    "lastName": "Roberts",
+    "contactInfo": {
+      "email": "julia.r@hollywood.com",
+      "phone": "555-8899"
+    }
   },
   {
     "id": 11,
     "firstName": "Kevin",
-    "lastName": "Hart"
+    "lastName": "Hart",
+    "contactInfo": {
+      "email": "kevin@comedy.com",
+      "phone": "555-555-5555"
+    }
   },
   {
     "id": 12,
     "firstName": "Laura",
-    "lastName": "Palmer"
+    "lastName": "Palmer",
+    "contactInfo": {
+      "email": "laura@twinpeaks.com",
+      "phone": "555-9274"
+    }
   },
   {
     "id": 13,
     "firstName": "Michael",
-    "lastName": "Scott"
+    "lastName": "Scott",
+    "contactInfo": {
+      "email": "michael.scott@dundermifflin.com",
+      "phone": "570-555-0123"
+    }
   },
   {
     "id": 14,
     "firstName": "Natalie",
-    "lastName": "Portman"
+    "lastName": "Portman",
+    "contactInfo": {
+      "email": "natalie@hollywood.com",
+      "phone": "555-1234"
+    }
   },
   {
     "id": 15,
     "firstName": "Oscar",
-    "lastName": "Isaac"
+    "lastName": "Isaac",
+    "contactInfo": {
+      "email": "o.isaac@space.com",
+      "phone": "+1 202 555 0144"
+    }
   },
   {
     "id": 16,
     "firstName": "Paul",
-    "lastName": "Rudd"
+    "lastName": "Rudd",
+    "contactInfo": {
+      "email": "paul.r@marvel.com",
+      "phone": "555-ANTM"
+    }
   },
   {
     "id": 17,
     "firstName": "Quentin",
-    "lastName": "Tarantino"
+    "lastName": "Tarantino",
+    "contactInfo": {
+      "email": "q.tarantino@movies.com",
+      "phone": "555-0099"
+    }
   },
   {
     "id": 18,
     "firstName": "Rachel",
-    "lastName": "Green"
+    "lastName": "Green",
+    "contactInfo": {
+      "email": "rachel@centralperk.com",
+      "phone": "212-555-0167"
+    }
   },
   {
     "id": 19,
     "firstName": "Steve",
-    "lastName": "Rogers"
+    "lastName": "Rogers",
+    "contactInfo": {
+      "email": "cap@avengers.org",
+      "phone": "1940-LEGACY"
+    }
   },
   {
     "id": 20,
     "firstName": "Tina",
-    "lastName": "Fey"
+    "lastName": "Fey",
+    "contactInfo": {
+      "email": "tina.fey@snl.com",
+      "phone": "212-555-3030"
+    }
   },
   {
     "id": 21,
     "firstName": "Ursula",
-    "lastName": "Corbero"
+    "lastName": "Corbero",
+    "contactInfo": {
+      "email": "tokio@moneyheist.es",
+      "phone": "+34 600 112233"
+    }
   },
   {
     "id": 22,
     "firstName": "Victor",
-    "lastName": "Hugo"
+    "lastName": "Hugo",
+    "contactInfo": {
+      "email": "victor@lesmis.fr",
+      "phone": "+33 1 42 65 00 00"
+    }
   },
   {
     "id": 23,
     "firstName": "Wanda",
-    "lastName": "Maximoff"
+    "lastName": "Maximoff",
+    "contactInfo": {
+      "email": "wanda@vision.com",
+      "phone": "555-HEX-0"
+    }
   },
   {
     "id": 24,
     "firstName": "Xavier",
-    "lastName": "Hernandez"
+    "lastName": "Hernandez",
+    "contactInfo": {
+      "email": "xavi@barca.cat",
+      "phone": "+34 600 000 006"
+    }
   },
   {
     "id": 25,
     "firstName": "Yara",
-    "lastName": "Shahidi"
+    "lastName": "Shahidi",
+    "contactInfo": {
+      "email": "yara@grownish.com",
+      "phone": "310-555-0987"
+    }
   },
   {
     "id": 26,
     "firstName": "Zack",
-    "lastName": "Snyder"
+    "lastName": "Snyder",
+    "contactInfo": {
+      "email": "zack@justice.com",
+      "phone": "555-4433"
+    }
   },
   {
     "id": 27,
     "firstName": "Arthur",
-    "lastName": "Morgan"
+    "lastName": "Morgan",
+    "contactInfo": {
+      "email": "arthur@van-der-linde.com",
+      "phone": "1899-OUTLAW"
+    }
   },
   {
     "id": 28,
     "firstName": "Beth",
-    "lastName": "Harmon"
+    "lastName": "Harmon",
+    "contactInfo": {
+      "email": "beth.h@chess.ru",
+      "phone": "007-64-55-12"
+    }
   },
   {
     "id": 29,
     "firstName": "Cillian",
-    "lastName": "Murphy"
+    "lastName": "Murphy",
+    "contactInfo": {
+      "email": "cillian@peaky.uk",
+      "phone": "0121 455 0000"
+    }
   },
   {
     "id": 30,
     "firstName": "David",
-    "lastName": "Bowie"
+    "lastName": "Bowie",
+    "contactInfo": {
+      "email": "ziggy@mars.space",
+      "phone": "000-000-0000"
+    }
   },
   {
     "id": 31,
     "firstName": "Emma",
-    "lastName": "Watson"
+    "lastName": "Watson",
+    "contactInfo": {
+      "email": "emma@activism.org",
+      "phone": "44-20-7946-0111"
+    }
   },
   {
     "id": 32,
     "firstName": "Frank",
-    "lastName": "Sinatra"
+    "lastName": "Sinatra",
+    "contactInfo": {
+      "email": "frank@chairman.com",
+      "phone": "555-BLUE-EYES"
+    }
   },
   {
     "id": 33,
     "firstName": "Grace",
-    "lastName": "Hopper"
+    "lastName": "Hopper",
+    "contactInfo": {
+      "email": "grace@cobol.gov",
+      "phone": "0101-1010"
+    }
   },
   {
     "id": 34,
     "firstName": "Harry",
-    "lastName": "Potter"
+    "lastName": "Potter",
+    "contactInfo": {
+      "email": "harry@ministry.magic",
+      "phone": "07700-900555"
+    }
   },
   {
     "id": 35,
     "firstName": "Iris",
-    "lastName": "West"
+    "lastName": "West",
+    "contactInfo": {
+      "email": "iris.w@centralcity.news",
+      "phone": "555-FAST"
+    }
   },
   {
     "id": 36,
     "firstName": "James",
-    "lastName": "Bond"
+    "lastName": "Bond",
+    "contactInfo": {
+      "email": "007@mi6.gov.uk",
+      "phone": "007"
+    }
   },
   {
     "id": 37,
     "firstName": "Katherine",
-    "lastName": "Johnson"
+    "lastName": "Johnson",
+    "contactInfo": {
+      "email": "katherine@nasa.gov",
+      "phone": "555-NASA"
+    }
   },
   {
     "id": 38,
     "firstName": "Leonardo",
-    "lastName": "DiCaprio"
+    "lastName": "DiCaprio",
+    "contactInfo": {
+      "email": "leo@climate.org",
+      "phone": "555-ECO-FRIEND"
+    }
   },
   {
     "id": 39,
     "firstName": "Margot",
-    "lastName": "Robbie"
+    "lastName": "Robbie",
+    "contactInfo": {
+      "email": "margot@barbie.com",
+      "phone": "0400 123 456"
+    }
   },
   {
     "id": 40,
     "firstName": "Nikola",
-    "lastName": "Tesla"
+    "lastName": "Tesla",
+    "contactInfo": {
+      "email": "tesla@alternating.ac",
+      "phone": "1856-AC-DC"
+    }
   },
   {
     "id": 41,
     "firstName": "Olivia",
-    "lastName": "Benson"
+    "lastName": "Benson",
+    "contactInfo": {
+      "email": "benson@svu.nypd",
+      "phone": "911-SVU"
+    }
   },
   {
     "id": 42,
     "firstName": "Peter",
-    "lastName": "Parker"
+    "lastName": "Parker",
+    "contactInfo": {
+      "email": "p.parker@dailybugle.com",
+      "phone": "718-555-0122"
+    }
   },
   {
     "id": 43,
     "firstName": "Queen",
-    "lastName": "Elizabeth"
+    "lastName": "Elizabeth",
+    "contactInfo": {
+      "email": "hrh@buckingham.uk",
+      "phone": "44-20-7930-4832"
+    }
   },
   {
     "id": 44,
     "firstName": "Riley",
-    "lastName": "Reid"
+    "lastName": "Reid",
+    "contactInfo": {
+      "email": "riley@reid.com",
+      "phone": "555-9988"
+    }
   },
   {
     "id": 45,
     "firstName": "Sherlock",
-    "lastName": "Holmes"
+    "lastName": "Holmes",
+    "contactInfo": {
+      "email": "sherlock@bakerstreet.com",
+      "phone": "221B-LONDON"
+    }
   },
   {
     "id": 46,
     "firstName": "Tony",
-    "lastName": "Stark"
+    "lastName": "Stark",
+    "contactInfo": {
+      "email": "tony@starkindustries.com",
+      "phone": "1-800-IRONMAN"
+    }
   },
   {
     "id": 47,
     "firstName": "Uma",
-    "lastName": "Thurman"
+    "lastName": "Thurman",
+    "contactInfo": {
+      "email": "uma@killbill.com",
+      "phone": "555-SWORD"
+    }
   },
   {
     "id": 48,
     "firstName": "Vito",
-    "lastName": "Corleone"
+    "lastName": "Corleone",
+    "contactInfo": {
+      "email": "vito@oliveoil.it",
+      "phone": "0039-DON"
+    }
   },
   {
     "id": 49,
     "firstName": "Walter",
-    "lastName": "White"
+    "lastName": "White",
+    "contactInfo": {
+      "email": "heisenberg@blue.com",
+      "phone": "505-555-1258"
+    }
   },
   {
     "id": 50,
     "firstName": "Zendaya",
-    "lastName": "Coleman"
+    "lastName": "Coleman",
+    "contactInfo": {
+      "email": "zendaya@fashion.com",
+      "phone": "555-0120"
+    }
   }
 ]

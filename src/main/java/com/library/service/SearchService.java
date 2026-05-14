@@ -67,9 +67,9 @@ public class SearchService {
         return foundMember;
     }
 
-    // TODO
     public List<Member> memberMatchesSearchText(String searchText) {
         List<Member> foundMembers = new ArrayList<>();
+        foundMembers = memberCatalog.searchMembers(searchText);
         return foundMembers;
     }
 }
